@@ -1,0 +1,194 @@
+.repositories {
+  min-height: calc(100vh - 70px);
+  background-color: #0d1117;
+  padding: 40px 24px;
+}
+
+.repositories-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-title {
+  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+  padding: 20px;
+  background-color: #161b22;
+  border-radius: 12px;
+}
+
+.user-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.repos-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 24px;
+  padding: 0;
+}
+
+.repo-item {
+  background-color: #161b22;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.repo-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.repo-link {
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+}
+
+.repo-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.repo-name {
+  color: #58a6ff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.repo-description {
+  color: #c9d1d9;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.repo-stats {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.repo-stat {
+  color: #8b949e;
+  font-size: 12px;
+}
+
+.repo-language {
+  color: #2ea043;
+  font-size: 12px;
+}
+
+.no-data-container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.no-data-image {
+  width: 300px;
+  margin-bottom: 24px;
+}
+
+.no-data-title {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.no-data-message {
+  color: #8b949e;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.go-home-btn {
+  padding: 10px 24px;
+  background-color: #238636;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.failure-container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.failure-image {
+  width: 300px;
+  margin-bottom: 24px;
+}
+
+.failure-message {
+  color: #f85149;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.try-again-btn {
+  padding: 10px 24px;
+  background-color: #238636;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .repositories {
+    padding: 20px 16px;
+  }
+
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .repos-list {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .user-name {
+    font-size: 20px;
+  }
+
+  .no-data-image {
+    width: 200px;
+  }
+
+  .failure-image {
+    width: 200px;
+  }
+}

@@ -1,0 +1,177 @@
+.analysis {
+  min-height: calc(100vh - 70px);
+  background-color: #0d1117;
+  padding: 40px 24px;
+}
+
+.analysis-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 40px;
+  padding: 24px;
+  background-color: #161b22;
+  border-radius: 12px;
+}
+
+.user-avatar-large {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name-large {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.page-title {
+  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.analysis-section {
+  background-color: #161b22;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.language-data-list,
+.repo-data-list {
+  margin-bottom: 20px;
+}
+
+.language-text,
+.repo-text {
+  color: #c9d1d9;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.analysis-title {
+  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.section-title {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.chart-container {
+  width: 100%;
+  overflow-x: auto;
+  min-height: 400px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.failure-container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.failure-image {
+  width: 300px;
+  margin-bottom: 24px;
+}
+
+.failure-message {
+  color: #f85149;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.try-again-btn {
+  padding: 10px 24px;
+  background-color: #238636;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.no-data-container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.no-data-image {
+  width: 300px;
+  margin-bottom: 24px;
+}
+
+.no-data-title {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.no-data-message {
+  color: #8b949e;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.go-home-btn {
+  padding: 10px 24px;
+  background-color: #238636;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .analysis {
+    padding: 20px 16px;
+  }
+
+  .user-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .user-name-large {
+    font-size: 24px;
+  }
+
+  .page-title {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .analysis-section {
+    padding: 16px;
+  }
+
+  .no-data-image {
+    width: 200px;
+  }
+
+  .failure-image {
+    width: 200px;
+  }
+}
