@@ -1,8 +1,13 @@
-In this project let's build a **GitHub Profile Visualizer** by applying the concepts we have learned till now. This project allows you to practice the concepts and techniques learned till React Course and apply them in a concrete project.
+Developed a responsive web application to visualize and analyze GitHub user profiles using the GitHub API.
 
-You will demonstrate your skills by creating an app that will fetch data from an internal server using a component, displaying that data, **routing** and **context** concepts, and adding responsiveness to the website.
-
-This is an individual assessment. All work must be your own. You can request for the feedback after your project submission in the discussions.
+Built a GitHub Profile Visualizer using React.js to fetch and display GitHub user information dynamically.
+Implemented GitHub API integration to retrieve profile details such as repositories, followers, following count, bio, and profile statistics.
+Added search functionality to find and visualize any GitHub user profile instantly.
+Designed a responsive and user-friendly UI for seamless experience across mobile, tablet, and desktop devices.
+Implemented dynamic rendering and conditional UI updates based on API responses and user input.
+Used React components and state management for efficient data handling and reusable UI elements.
+Handled loading states and error handling for invalid usernames or failed API requests.
+Improved user experience with clean profile visualization and organized repository information.
 
 ### Prerequisites
 
